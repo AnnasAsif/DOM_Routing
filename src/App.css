@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Navbar styles */
+.navbar {
+  background-color: #757474;
+  color: #fdebeb;
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
